@@ -7,15 +7,17 @@
 </p>
 <p>
     <%= form.label "description", "Description" %>
-    <%= form.text_field "description" %>
+    <%= form.text_area "description" %>
 </p>
 <p>
     <%= form.label "posted_on", "Posted On" %>
     <%= form.date_field "posted_on" %>
 </p>
+<!--
 <p>
-    <%= form.label "place_id", "Place ID" %>
-    <%= form.text_field "title" %>
+    <%#= form.label "place_id", "Place ID" %>
+    <%#= form.number "title" %>
 </p>
+-->
 <%= form.submit %>
 <% end %>
