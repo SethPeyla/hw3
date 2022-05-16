@@ -10,7 +10,6 @@ class PlacesController < ApplicationController
     end
 
     def new
-        # Place.destroy_all
         @place = Place.new
     end
 
